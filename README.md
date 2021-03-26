@@ -2,4 +2,4 @@
 
 ![](https://media.giphy.com/media/PvZ2jLjFofH4Q/giphy.gif)
 
--Schoolproject where you should make sure that our bar has beer before opening
+-First schoolproject in C# where you should make sure that the bar has beer before opening
