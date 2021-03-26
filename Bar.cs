@@ -5,9 +5,8 @@ namespace Bar
     {
         /*
          Jag börjar med att deklarera variablen size som ska användas i vektorn som initieras till baren.
-         Jag ger size värdet 24 vilket innebär att vektorn kommer innehålla 20 element.
-         Jag deklarerar även här variabeln pris och ger den värdet 5, detta är alltså priset som varje öl
-         kostar.
+         Jag ger size värdet 20 vilket innebär att vektorn kommer innehålla 20 element.
+         Jag deklarerar även här variabeln pris och ger den värdet 20, detta är alltså priset/kostnaden för varje öl.
          */
         private static int size = 20;
         private string[] baren = new string[size];
@@ -29,7 +28,7 @@ namespace Bar
                 Console.WriteLine("[3] Beräkna det totala värdet på baren och skriv ut på skärmen");
                 Console.WriteLine("[0] Avsluta");
 
-               // Try /catch ser till så att användaren bara använder in siffror.
+               // Try /catch ser till så att användaren bara använder  siffror.
                 try
                 {
                     meny = int.Parse(Console.ReadLine());
